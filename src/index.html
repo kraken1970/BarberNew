@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/styles/style.css">
+  <title>Барбершоп "Бородинский"</title>
+</head>
+<body class="main-body">
+
+  <header class="main_header">
+    <div class="top-menu">
+      <div class="container">
+        <div class="row top-menu__flex">
+          <div class="col-md-10">
+            <ul class="top-menu_nav">
+              <li><a href="#">ИНФОРМАЦИЯ</a></li>
+              <li><a href="#">НОВОСТИ</a></li>
+              <li><a href="price.html" target="_blank">ПРАЙС-ЛИСТ</a></li>
+              <li><a href="shop-page-2.html" target="_blank">МАГАЗИН</a></li>
+              <li><a href="#">КОНТАКТЫ</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 clearfix">
+            <div class="user-block">
+                <a href="#" class="login">ВХОД</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="big-logo">
+            <img src="assets/images/big-logo.png" width="368" 
+            height="204" alt="Барбершоп "Бородинский"">
+        </div>
+      </div>
+      <section class="features">
+        <div class="col-md-4">
+          <div class="features-item">
+            <b class="features-item_name">БЫСТРО</b>
+            <p>МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО!
+               ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО 
+               И ВЫ — СЧАСТЛИВЫЙ ОБЛАДЕТЕЛЬ 
+               СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="features-item">
+            <b class="features-item_name">КРУТО</b>
+            <p>ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ.
+                МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО!
+                ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="features-item">
+            <b class="features-item_name">ДОРОГО</b>
+            <p>НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА
+               И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, 
+               РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?</p>
+          </div>
+        </div>
+      </section>
+    </div>
+        <div class="row index-content">
+          <div class="col-md-1"></div>
+          <div class="col-md-4">
+            <h2 class="index-content_title">НОВОСТИ</h2>
+            <ul class="news-preview">
+              <li>
+                <p>НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ 
+                  МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ
+                </p>
+                <time datetime="2016-09-25">25 сентября</time>
+              </li>
+              <li>
+                <p>В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ,
+                   ОБЛАДЕТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ
+                </p>
+                <time datetime="2016-09-19">19 сентября</time>
+              </li>
+            </ul>
+            <a href="#" class="btn">ВСЕ НОВОСТИ</a>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-1"></div>
+          <div class="col-md-4">
+            <h2 class="index-content_title">ФОТОГАЛЕРЕЯ</h2>
+            <div class="gallery">
+              <figure class="gallery-content">
+                <img src="assets/images/gallery-1.jpg" width="286" height="164" alt="barbeshop hall">
+              </figure>
+              <button class="btn gallery-prew">НАЗАД</button>
+              <button class="btn gallery-next">ВПЕРЕД</button>
+            </div>
+          </div>
+          <div class="col-md-1"></div>
+        </div>
+        <div class="row index-content">
+          <div class="col-md-1"></div>
+          <div class="col-md-4">
+            <h2 class="index-content_title">КОНТАКТНАЯ ИНФОРМАЦИЯ</h2>
+            <p>БАРБЕРШОП «БОРОДИНСКИЙ»<br>
+                АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8<br>
+                ТЕЛЕФОН: +7 (495) 666-02-66</p>
+            <p>ВРЕМЯ РАБОТЫ:<br>   
+                ПН — ПТ: С 10:00 ДО 22:00<br>
+                СБ — ВС: С 10:00 ДО 19:00</p>
+            <a href="#" class="btn index-content-btn__left js-open-map">КАК ПРОЕХАТЬ</a>
+            <a href="#" class="btn">ОБРАТНАЯ СВЯЗЬ</a>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-1"></div>
+          <div class="col-md-4">
+            <h2 class="index-content_title">ЗАПИСАТЬСЯ</h2>
+            <p>УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</p>
+            <form action="https://echo.htmlacademy.ru" method="post" class="meeting-form">
+              <input type="text" class="left-input" name="date" value="" placeholder="ДАТА">
+              <input type="text" name="time" value="" placeholder="ВРЕМЯ">
+              <input type="text" class="left-input" name="name" value="" placeholder="ВАШЕ ИМЯ">
+              <input type="tel" name="phone" value="" placeholder="ТЕЛЕФОН">
+              <button class="btn" type="button">ОТПРАВИТЬ</button>
+            </form>
+          </div>
+          <div class="col-md-1"></div>
+        </div>
+  </main>
+
+  <footer class="main-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <secton class="footer-contact">
+              БАРБЕРШОП «БОРОДИНСКИЙ»<br>
+              АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8<br>
+              <a href="#">КАК НАС НАЙТИ?</a><br>
+              ТЕЛЕФОН: +7 (495) 666-02-66
+          </secton>
+        </div>
+        <div class="col-md-4">
+            <secton class="footer-social">
+              <p>ДАВАЙТЕ ДРУЖИТЬ!</p>
+              <a href="#" class="social-btn social-btn-vk">Вконтакте</a>
+              <a href="#" class="social-btn social-btn-fb">Фейсбук</a>
+              <a href="#" class="social-btn social-btn-inst">Инстаграмм</a>
+            </secton>
+        </div>
+        <div class="col-md-4 clearfix">
+            <secton class="footer-copyright">
+              <p>РАЗРАБОТАНО:</p>
+              <a href="https://htmlacademy.ru" class="btn" target="blank">htmlacademy.ru</a>
+            </secton>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal-content">
+    <button class="modal-content-close"
+     type="button" title=
+     "Закрыть">Закрыть</button>
+     <h2 class="modal-content-title">ЛИЧНЫЙ КАБИНЕТ</h2>
+     <p>ВВедите пожалуйста свой логин и пароль</p>
+     <form action="https://echo.htmlacademy.ru"
+      method="post" class="login-form">
+        <input type="text" class="icon-user"
+         name="login" placeholder="ЛОГИН">
+         <input type="password" class="icon-password"
+         name="password" placeholder="ПАРОЛЬ">
+         <label class="login-checkbox">
+          <input type="checkbox" name="remember">
+           <span class="checkbox-indicator"></span>
+           ЗАПОМНИТЕ МЕНЯ
+          </label>
+          <a href="#" class="restore">Я ЗАБЫЛ ПАРОЛЬ!</a>
+          <button class="btn" type="submit">ВОЙТИ</button> 
+    </form>
+  </div>
+  <div class="modal-overlay"></div>
+  <div-- class="modal-content-map">
+    <button class="modal-content-close" 
+    type="button" title="Закрыть">Закрыть</button>
+    <div class="yandex-map" id="yandex.map"></div>
+    <!--div class="google-map"-->
+      <!--iframe src="https://yandex.ua/map-widget/v1/?um=constructor%3A9e1178ff4f6f277fb5f4eb18654ba4942ed4bc7d6eb863647c090bf69cde0402&amp;lang=ru_UA&amp;scroll=true&amp;source=constructor" width="100%" height="560" frameborder="0"></iframe-->
+    <!--/div-->
+  </div>
+
+<script src="assets/javascripts/app.js"></script>
+<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A21c512446e24a32987f487ae5b6fe753fbc7813746662e6e3cdf367a4b180001&amp;width=766&amp;height=560&amp;id=yandex.map&amp;lang=ru_UA&amp;scroll=true"></script>
+
+</body>
+</html>
+<!--iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5991043651568!2d30.320894616295742!3d59.938794181876276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1504907410026" width="766" height="560" frameborder="0" style="border:0" allowfullscreen></iframe-->

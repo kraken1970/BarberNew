@@ -1,0 +1,170 @@
+/*all-pages*/
+.all-body {
+  background: #f9f6f3 url(../../assets/images/fon-content_bg.png);
+  color: #000000;
+  font-family: "PTSans Bold", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.all_header {
+  background-color: #000000;
+  margin-bottom: 55px;
+}
+
+.top-menu_nav .small-logo:hover,
+.top-menu_nav .activ-nav a{
+  background: none;
+}
+
+.top-menu_nav .activ-nav {
+  position: relative;
+  color: #000000;
+}
+
+.top-menu_nav .activ-nav::after {
+  content: "";
+  position: absolute;
+  right: 20px;
+  bottom: -4px;
+  left: 20px;
+  height: 5px;
+  background-color: #ffffff;
+}
+
+.inner-page-title h1 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.breadcrumbs {
+  margin: 0;
+  padding: 0;
+}
+
+.breadcrumbs li {
+  position: relative;
+  display: inline;
+  padding-right: 40px;
+}
+
+.breadcrumbs a {
+  color: #000000;
+}
+
+.breadcrumbs a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumbs .current {
+  color: #aba9a7;
+}
+
+.breadcrumbs li::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 4px;
+  right: 18px;
+  transform: rotate(45deg);
+  background-color: #000000;
+}
+
+.breadcrumbs .current::after {
+  display: none;
+}
+/* Общие стили для контент тегов*/
+.inner-content {
+  margin-bottom: 75px;
+}
+
+.inner-content h2 {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+
+
+.inner-content table {
+  border-collapse: collapse;
+}
+
+.inner-content td {
+  padding: 10px 15px;
+  border: 2px solid #000000;
+}
+
+.big-heading {
+  margin-top: 55px;
+  margin-bottom: 65px;
+  text-align: center;
+}
+
+.big-heading h2 {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  padding: 0 25px;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  z-index: 2;
+  background: #f9f6f3 url(../../assets/images/fon-content_bg.png);
+}
+
+.big-heading::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: -25px;
+  border-bottom: 2px solid #000000;
+  z-index: 1;
+}
+
+.custom-list-1 {
+  margin: 14px 0;
+  padding: 0;
+  & li {
+    position: relative;
+    margin-bottom: 15px;
+    padding-left: 20px;
+  }
+}
+
+.custom-list-1 li::before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 7px;
+  left: 0;
+  transform: rotate(45deg);
+  background-color: #000000;
+}
+
+.price-table {
+  width: 100%;
+  & td {
+    width: 50%;
+  }
+  & td:last-child {
+    text-align: center;
+  }
+}
+
+.inner-content p {
+ 
+  width: 83%;
+}
+
+.inner-content__p--right {
+  margin-top: 76px;
+}
+/* end price */
